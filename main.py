@@ -158,4 +158,4 @@ elif page == "Raw Data Explorer":
     st.download_button("Download Processed Data", df.to_csv(index=False), "processed_loans.csv", "text/csv")
 
 st.sidebar.markdown("---")
-st.sidebar.caption("made by Muhammad Ali Kahoot")
+st.sidebar.caption("Made by Muhammad Ali Kahoot")
